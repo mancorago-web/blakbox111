@@ -134,24 +134,28 @@ export default function Home() {
 
       {/* SECCIONES BLOCKCHAIN E IA */}
       <section id="blockchain" className="min-h-screen flex flex-col items-center justify-start bg-gray-900 text-white pt-24 px-6">
-        <motion.h2 initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 1 }} className="text-5xl font-bold mb-6">
-          Blockchain
-        </motion.h2>
-        <motion.div className="grid md:grid-cols-3 gap-6 text-left" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.5, duration: 1 }}>
-          <div className="bg-gray-800 p-6 rounded-xl shadow-lg hover:scale-105 transition-transform cursor-pointer">
-            <h3 className="text-2xl font-bold mb-2">Clase Gratuita</h3>
-            <p>Introducción a Bitcoin y Blockchain.</p>
-          </div>
-          <div className="bg-gray-800 p-6 rounded-xl shadow-lg hover:scale-105 transition-transform cursor-pointer">
-            <h3 className="text-2xl font-bold mb-2">Clase de Pago</h3>
-            <p>Curso completo de Blockchain avanzado.</p>
-          </div>
-          <div className="bg-gray-800 p-6 rounded-xl shadow-lg hover:scale-105 transition-transform cursor-pointer">
-            <h3 className="text-2xl font-bold mb-2">Mentoría Privada</h3>
-            <p>Sesiones personalizadas según tu nivel.</p>
-          </div>
-        </motion.div>
-      </section>
+  <motion.h2 initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 1 }} className="text-5xl font-bold mb-6">
+    Blockchain
+  </motion.h2>
+  <motion.div className="grid md:grid-cols-4 gap-6 text-left" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.5, duration: 1 }}>
+    <div className="bg-gray-800 p-6 rounded-xl shadow-lg hover:scale-105 transition-transform cursor-pointer">
+      <h3 className="text-2xl font-bold mb-2">Clase Gratuita</h3>
+      <p>Introducción a Bitcoin y Blockchain.</p>
+    </div>
+    <div className="bg-gray-800 p-6 rounded-xl shadow-lg hover:scale-105 transition-transform cursor-pointer">
+      <h3 className="text-2xl font-bold mb-2">Clase de Pago</h3>
+      <p>Curso completo de Blockchain avanzado.</p>
+    </div>
+    <div className="bg-gray-800 p-6 rounded-xl shadow-lg hover:scale-105 transition-transform cursor-pointer">
+      <h3 className="text-2xl font-bold mb-2">Mentoría Privada</h3>
+      <p>Sesiones personalizadas según tu nivel.</p>
+    </div>
+    <div className="bg-gray-800 p-6 rounded-xl shadow-lg hover:scale-105 transition-transform cursor-pointer">
+      <h3 className="text-2xl font-bold mb-2">Servicios</h3>
+      <p>Consultoría y proyectos personalizados en Blockchain.</p>
+    </div>
+  </motion.div>
+</section>
 
       <section id="ia" className="min-h-screen flex flex-col items-center justify-start bg-gray-800 text-white pt-24 px-6">
         <motion.h2 initial={{ opacity: 0, x: 100 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 1 }} className="text-5xl font-bold mb-6">
